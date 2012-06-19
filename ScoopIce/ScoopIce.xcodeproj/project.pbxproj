@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28B1C421590E59D000CEE8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28B1C411590E59D000CEE8E /* UIKit.framework */; };
+		B28B1C441590E59D000CEE8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28B1C431590E59D000CEE8E /* Foundation.framework */; };
+		B28B1C461590E59D000CEE8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28B1C451590E59D000CEE8E /* CoreGraphics.framework */; };
+		B28B1C4C1590E59D000CEE8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B28B1C4A1590E59D000CEE8E /* InfoPlist.strings */; };
+		B28B1C4E1590E59D000CEE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B1C4D1590E59D000CEE8E /* main.m */; };
+		B28B1C521590E59D000CEE8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B1C511590E59D000CEE8E /* AppDelegate.m */; };
+		B28B1C551590E59D000CEE8E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B1C531590E59D000CEE8E /* MainStoryboard_iPhone.storyboard */; };
+		B28B1C581590E59D000CEE8E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B1C561590E59D000CEE8E /* MainStoryboard_iPad.storyboard */; };
+		B28B1C5B1590E59D000CEE8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B1C5A1590E59D000CEE8E /* ViewController.m */; };
+		B28B1C631590E59D000CEE8E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28B1C621590E59D000CEE8E /* SenTestingKit.framework */; };
+		B28B1C641590E59D000CEE8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28B1C411590E59D000CEE8E /* UIKit.framework */; };
+		B28B1C651590E59D000CEE8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28B1C431590E59D000CEE8E /* Foundation.framework */; };
+		B28B1C6D1590E59D000CEE8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B28B1C6B1590E59D000CEE8E /* InfoPlist.strings */; };
+		B28B1C701590E59D000CEE8E /* ScoopIceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B28B1C6F1590E59D000CEE8E /* ScoopIceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B28B1C661590E59D000CEE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B28B1C341590E59C000CEE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28B1C3C1590E59C000CEE8E;
+			remoteInfo = ScoopIce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B28B1C3D1590E59D000CEE8E /* ScoopIce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoopIce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28B1C411590E59D000CEE8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B28B1C431590E59D000CEE8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B28B1C451590E59D000CEE8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B28B1C491590E59D000CEE8E /* ScoopIce-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoopIce-Info.plist"; sourceTree = "<group>"; };
+		B28B1C4B1590E59D000CEE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B28B1C4D1590E59D000CEE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B28B1C4F1590E59D000CEE8E /* ScoopIce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoopIce-Prefix.pch"; sourceTree = "<group>"; };
+		B28B1C501590E59D000CEE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B28B1C511590E59D000CEE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B28B1C541590E59D000CEE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B28B1C571590E59D000CEE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B28B1C591590E59D000CEE8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B28B1C5A1590E59D000CEE8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B28B1C611590E59D000CEE8E /* ScoopIceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopIceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28B1C621590E59D000CEE8E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B28B1C6A1590E59D000CEE8E /* ScoopIceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoopIceTests-Info.plist"; sourceTree = "<group>"; };
+		B28B1C6C1590E59D000CEE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B28B1C6E1590E59D000CEE8E /* ScoopIceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoopIceTests.h; sourceTree = "<group>"; };
+		B28B1C6F1590E59D000CEE8E /* ScoopIceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoopIceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28B1C3A1590E59C000CEE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28B1C421590E59D000CEE8E /* UIKit.framework in Frameworks */,
+				B28B1C441590E59D000CEE8E /* Foundation.framework in Frameworks */,
+				B28B1C461590E59D000CEE8E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28B1C5D1590E59D000CEE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28B1C631590E59D000CEE8E /* SenTestingKit.framework in Frameworks */,
+				B28B1C641590E59D000CEE8E /* UIKit.framework in Frameworks */,
+				B28B1C651590E59D000CEE8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28B1C321590E59C000CEE8E = {
+			isa = PBXGroup;
+			children = (
+				B28B1C471590E59D000CEE8E /* ScoopIce */,
+				B28B1C681590E59D000CEE8E /* ScoopIceTests */,
+				B28B1C401590E59D000CEE8E /* Frameworks */,
+				B28B1C3E1590E59D000CEE8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28B1C3E1590E59D000CEE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28B1C3D1590E59D000CEE8E /* ScoopIce.app */,
+				B28B1C611590E59D000CEE8E /* ScoopIceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28B1C401590E59D000CEE8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B28B1C411590E59D000CEE8E /* UIKit.framework */,
+				B28B1C431590E59D000CEE8E /* Foundation.framework */,
+				B28B1C451590E59D000CEE8E /* CoreGraphics.framework */,
+				B28B1C621590E59D000CEE8E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B28B1C471590E59D000CEE8E /* ScoopIce */ = {
+			isa = PBXGroup;
+			children = (
+				B28B1C501590E59D000CEE8E /* AppDelegate.h */,
+				B28B1C511590E59D000CEE8E /* AppDelegate.m */,
+				B28B1C531590E59D000CEE8E /* MainStoryboard_iPhone.storyboard */,
+				B28B1C561590E59D000CEE8E /* MainStoryboard_iPad.storyboard */,
+				B28B1C591590E59D000CEE8E /* ViewController.h */,
+				B28B1C5A1590E59D000CEE8E /* ViewController.m */,
+				B28B1C481590E59D000CEE8E /* Supporting Files */,
+			);
+			path = ScoopIce;
+			sourceTree = "<group>";
+		};
+		B28B1C481590E59D000CEE8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B28B1C491590E59D000CEE8E /* ScoopIce-Info.plist */,
+				B28B1C4A1590E59D000CEE8E /* InfoPlist.strings */,
+				B28B1C4D1590E59D000CEE8E /* main.m */,
+				B28B1C4F1590E59D000CEE8E /* ScoopIce-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B28B1C681590E59D000CEE8E /* ScoopIceTests */ = {
+			isa = PBXGroup;
+			children = (
+				B28B1C6E1590E59D000CEE8E /* ScoopIceTests.h */,
+				B28B1C6F1590E59D000CEE8E /* ScoopIceTests.m */,
+				B28B1C691590E59D000CEE8E /* Supporting Files */,
+			);
+			path = ScoopIceTests;
+			sourceTree = "<group>";
+		};
+		B28B1C691590E59D000CEE8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B28B1C6A1590E59D000CEE8E /* ScoopIceTests-Info.plist */,
+				B28B1C6B1590E59D000CEE8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28B1C3C1590E59C000CEE8E /* ScoopIce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28B1C731590E59D000CEE8E /* Build configuration list for PBXNativeTarget "ScoopIce" */;
+			buildPhases = (
+				B28B1C391590E59C000CEE8E /* Sources */,
+				B28B1C3A1590E59C000CEE8E /* Frameworks */,
+				B28B1C3B1590E59C000CEE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoopIce;
+			productName = ScoopIce;
+			productReference = B28B1C3D1590E59D000CEE8E /* ScoopIce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B28B1C601590E59D000CEE8E /* ScoopIceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28B1C761590E59D000CEE8E /* Build configuration list for PBXNativeTarget "ScoopIceTests" */;
+			buildPhases = (
+				B28B1C5C1590E59D000CEE8E /* Sources */,
+				B28B1C5D1590E59D000CEE8E /* Frameworks */,
+				B28B1C5E1590E59D000CEE8E /* Resources */,
+				B28B1C5F1590E59D000CEE8E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28B1C671590E59D000CEE8E /* PBXTargetDependency */,
+			);
+			name = ScoopIceTests;
+			productName = ScoopIceTests;
+			productReference = B28B1C611590E59D000CEE8E /* ScoopIceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28B1C341590E59C000CEE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B28B1C371590E59C000CEE8E /* Build configuration list for PBXProject "ScoopIce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B28B1C321590E59C000CEE8E;
+			productRefGroup = B28B1C3E1590E59D000CEE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28B1C3C1590E59C000CEE8E /* ScoopIce */,
+				B28B1C601590E59D000CEE8E /* ScoopIceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28B1C3B1590E59C000CEE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28B1C4C1590E59D000CEE8E /* InfoPlist.strings in Resources */,
+				B28B1C551590E59D000CEE8E /* MainStoryboard_iPhone.storyboard in Resources */,
+				B28B1C581590E59D000CEE8E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28B1C5E1590E59D000CEE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28B1C6D1590E59D000CEE8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B28B1C5F1590E59D000CEE8E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28B1C391590E59C000CEE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28B1C4E1590E59D000CEE8E /* main.m in Sources */,
+				B28B1C521590E59D000CEE8E /* AppDelegate.m in Sources */,
+				B28B1C5B1590E59D000CEE8E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28B1C5C1590E59D000CEE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28B1C701590E59D000CEE8E /* ScoopIceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B28B1C671590E59D000CEE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28B1C3C1590E59C000CEE8E /* ScoopIce */;
+			targetProxy = B28B1C661590E59D000CEE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B28B1C4A1590E59D000CEE8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28B1C4B1590E59D000CEE8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B28B1C531590E59D000CEE8E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28B1C541590E59D000CEE8E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B28B1C561590E59D000CEE8E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28B1C571590E59D000CEE8E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B28B1C6B1590E59D000CEE8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B28B1C6C1590E59D000CEE8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B28B1C711590E59D000CEE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B28B1C721590E59D000CEE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B28B1C741590E59D000CEE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoopIce/ScoopIce-Prefix.pch";
+				INFOPLIST_FILE = "ScoopIce/ScoopIce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B28B1C751590E59D000CEE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoopIce/ScoopIce-Prefix.pch";
+				INFOPLIST_FILE = "ScoopIce/ScoopIce-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B28B1C771590E59D000CEE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoopIce.app/ScoopIce";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoopIce/ScoopIce-Prefix.pch";
+				INFOPLIST_FILE = "ScoopIceTests/ScoopIceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B28B1C781590E59D000CEE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScoopIce.app/ScoopIce";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoopIce/ScoopIce-Prefix.pch";
+				INFOPLIST_FILE = "ScoopIceTests/ScoopIceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28B1C371590E59C000CEE8E /* Build configuration list for PBXProject "ScoopIce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28B1C711590E59D000CEE8E /* Debug */,
+				B28B1C721590E59D000CEE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28B1C731590E59D000CEE8E /* Build configuration list for PBXNativeTarget "ScoopIce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28B1C741590E59D000CEE8E /* Debug */,
+				B28B1C751590E59D000CEE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B28B1C761590E59D000CEE8E /* Build configuration list for PBXNativeTarget "ScoopIceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28B1C771590E59D000CEE8E /* Debug */,
+				B28B1C781590E59D000CEE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28B1C341590E59C000CEE8E /* Project object */;
+}
